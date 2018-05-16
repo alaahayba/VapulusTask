@@ -14,4 +14,4 @@ Installing
 
  to import Schema.
 
- 4- run npm start -> to start the server it will run in port 9000
+ 4- run npm start -> to start the server it will run on port 9000
