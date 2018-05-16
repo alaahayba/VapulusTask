@@ -28,5 +28,5 @@ server.use("/contacts",contactRouter);
 
 
 server.listen(9000,function(){
-  console.log("Server is listenning in port 9000 ");
+  console.log("Server is listening in port 9000 ");
 });
