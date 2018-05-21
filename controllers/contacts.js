@@ -42,7 +42,7 @@ router.post("/addContact",bodyParser.json(),requestCheckerAuth,function(request,
 });
 
 //******************************************* get contact list **************************************//
-router.post("/getList",bodyParser.json(),requestCheckerAuth,function(request,response,data)
+router.post("/getList",bodyParser.json(),requestCheckerAuth,function(request,response)
 {
         ContactsModel.getContactList(request.userId,request.body.pageNum,
             function(err,contactsList){
